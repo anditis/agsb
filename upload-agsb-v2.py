@@ -31,11 +31,11 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "adbox"         # 用户名
-UUID = "67946177-f177-446d-b258-ad76d397a4a5"                     # UUID，留空则自动生成
+USER_NAME = "anditis"         # 用户名
+UUID = "64a33779-0f63-4960-b9e9-2bc9f2a2ed33"                     # UUID，留空则自动生成
 PORT = 37777                   # Vmess端口，留空或0则自动生成
-DOMAIN = "ixoo.ufoo.dpdns.org"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiMDgwNmE5MmMxNzZkZjRkNjM3MjIxZmMyMjM1OTQyMTAiLCJ0IjoiNDBjNTkzNjEtYzlmNi00NzRhLTk3MGItOTM1MDJmNWNhMjA0IiwicyI6Ill6UXhNREJqTmpVdFpqSmxNeTAwWTJWakxXRmpOVEF0T1dVMVlqQmlNREkxWmpSayJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+DOMAIN = "us50.ufoo.dpdns.org"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiMDgwNmE5MmMxNzZkZjRkNjM3MjIxZmMyMjM1OTQyMTAiLCJ0IjoiM2Q5ZDZiYmItYjE3OS00YzBhLTgwODQtMzZkYmM3Mjc2OTZiIiwicyI6Ik1qUmhPVFU1TnpVdE16WXpZUzAwTkRsaExUbGtaakF0WlRBM056TmxObVZrWlRVMyJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
