@@ -31,7 +31,7 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "anditis"         # 用户名
+USER_NAME = "anditis000"         # 用户名
 UUID = "64a33779-0f63-4960-b9e9-2bc9f2a2ed33"                     # UUID，留空则自动生成
 PORT = 37777                   # Vmess端口，留空或0则自动生成
 DOMAIN = "us50.ufoo.dpdns.org"                   # 域名，留空则自动获取
